@@ -12,6 +12,9 @@ rogue.doc
 rogue.html
 rogue.me
 
+# Scores file
+rogue.scr
+
 # Everything below this line created by https://www.gitignore.io
 
 ### C ###
