@@ -288,9 +288,9 @@ eat()
     if (obj->o_type != FOOD)
     {
 	if (!terse)
-	    msg("ugh, you would get ill if you ate that");
+	    msg("ugh, it would hurt to eat that");
 	else
-	    msg("that's Inedible!");
+	    msg("that's inedible!");
 	return;
     }
     if (food_left < 0)
