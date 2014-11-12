@@ -540,6 +540,7 @@ spread(int nm)
 /*
  * call_it:
  *	Call an object something after use.
+ *	TODO allow deleting characters
  */
 
 void
