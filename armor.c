@@ -25,14 +25,7 @@ wear()
     if ((obj = get_item("wear", ARMOR)) == NULL)
 	return;
     if (cur_armor != NULL)
-    {
-	addmsg("you are already wearing some");
-	if (!terse)
-	    addmsg(".  You'll have to take it off first");
-	endmsg();
-	after = FALSE;
-	return;
-    }
+        take_off();
     if (obj->o_type != ARMOR)
     {
 	msg("you can't wear that");
