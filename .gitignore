@@ -4,16 +4,17 @@ config\.*
 
 # Binary
 rogue
+rogue54
 
 # Docs
-rogue.6
-rogue.cat
-rogue.doc
-rogue.html
-rogue.me
+*.6
+*.cat
+*.doc
+*.html
+*.me
 
 # Scores file
-rogue.scr
+*.scr
 
 # Everything below this line created by https://www.gitignore.io
 
