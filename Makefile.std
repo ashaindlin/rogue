@@ -62,6 +62,7 @@ $(PROGRAM): $(HDRS) $(OBJS) fixdocs
 clean:
 	$(RM) $(OBJS1)
 	$(RM) $(OBJS2)
+	$(RM) $(DOCS)
 	$(RM) core a.exe a.out a.exe.stackdump $(PROGRAM) $(PROGRAM).exe $(PROGRAM).lck
 	$(RM) $(PROGRAM).tar $(PROGRAM).tar.gz $(PROGRAM).zip 
 	$(RM) $(DISTNAME)/*
