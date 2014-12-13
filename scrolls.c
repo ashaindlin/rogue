@@ -276,7 +276,7 @@ def:
 	     * Reading it is a mistake and produces laughter at her
 	     * poor boo boo.
 	     */
-	    msg("you hear maniacal laughter in the distance");
+	    msg("you hear wild laughter in the distance");
 	when S_REMOVE:
 	    uncurse(cur_armor);
 	    uncurse(cur_weapon);
