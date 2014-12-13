@@ -44,12 +44,6 @@ ring_on()
      */
     if (is_current(obj))
 	return;
-
-    if (cur_ring[LEFT] == NULL && cur_ring[RIGHT] == NULL)
-    {
-	if ((ring = gethand()) < 0)
-	    return;
-    }
     else if (cur_ring[LEFT] == NULL)
 	ring = LEFT;
     else if (cur_ring[RIGHT] == NULL)
