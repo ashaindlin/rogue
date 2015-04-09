@@ -59,7 +59,7 @@ read_scroll()
     {
 	case S_CONFUSE:
 	    /*
-	     * Scroll of monster confusion.  Give him that power.
+	     * Scroll of monster confusion.  Give player that power.
 	     */
 	    player.t_flags |= CANHUH;
 	    msg("your hands begin to glow %s", pick_color("red"));
@@ -250,7 +250,7 @@ def:
 	when S_TELEP:
 	    /*
 	     * Scroll of teleportation:
-	     * Make him dissapear and reappear
+	     * Make player disappear and reappear
 	     */
 	    {
 		cur_room = proom;
